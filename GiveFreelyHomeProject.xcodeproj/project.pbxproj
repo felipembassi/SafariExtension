@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9446C83B2B6A863E00DAAD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446C83A2B6A863E00DAAD65 /* AppDelegate.swift */; };
+		9446C83F2B6A863E00DAAD65 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9446C83D2B6A863E00DAAD65 /* Main.html */; };
+		9446C8412B6A863E00DAAD65 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8402B6A863E00DAAD65 /* Icon.png */; };
+		9446C8432B6A863E00DAAD65 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8422B6A863E00DAAD65 /* Style.css */; };
+		9446C8452B6A863E00DAAD65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446C8442B6A863E00DAAD65 /* SceneDelegate.swift */; };
+		9446C8472B6A863E00DAAD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446C8462B6A863E00DAAD65 /* ViewController.swift */; };
+		9446C84A2B6A863E00DAAD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8482B6A863E00DAAD65 /* LaunchScreen.storyboard */; };
+		9446C84D2B6A863E00DAAD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9446C84B2B6A863E00DAAD65 /* Main.storyboard */; };
+		9446C8592B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446C8582B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.swift */; };
+		9446C8632B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446C8622B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.swift */; };
+		9446C8652B6A864C00DAAD65 /* GiveFreelyHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446C8642B6A864C00DAAD65 /* GiveFreelyHomeProjectUITestsLaunchTests.swift */; };
+		9446C86B2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9446C86A2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9446C8702B6A864C00DAAD65 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446C86F2B6A864C00DAAD65 /* SafariWebExtensionHandler.swift */; };
+		9446C8732B6A864C00DAAD65 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8722B6A864C00DAAD65 /* _locales */; };
+		9446C8752B6A864C00DAAD65 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8742B6A864C00DAAD65 /* images */; };
+		9446C8772B6A864C00DAAD65 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8762B6A864C00DAAD65 /* manifest.json */; };
+		9446C8792B6A864C00DAAD65 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8782B6A864C00DAAD65 /* background.js */; };
+		9446C87B2B6A864C00DAAD65 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 9446C87A2B6A864C00DAAD65 /* content.js */; };
+		9446C87D2B6A864C00DAAD65 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9446C87C2B6A864C00DAAD65 /* popup.html */; };
+		9446C87F2B6A864C00DAAD65 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 9446C87E2B6A864C00DAAD65 /* popup.css */; };
+		9446C8812B6A864C00DAAD65 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 9446C8802B6A864C00DAAD65 /* popup.js */; };
+		9446C8832B6A864C00DAAD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9446C84E2B6A864C00DAAD65 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9446C8552B6A864C00DAAD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9446C82F2B6A863E00DAAD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9446C8362B6A863E00DAAD65;
+			remoteInfo = GiveFreelyHomeProject;
+		};
+		9446C85F2B6A864C00DAAD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9446C82F2B6A863E00DAAD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9446C8362B6A863E00DAAD65;
+			remoteInfo = GiveFreelyHomeProject;
+		};
+		9446C86C2B6A864C00DAAD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9446C82F2B6A863E00DAAD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9446C8692B6A864C00DAAD65;
+			remoteInfo = "GiveFreelyHomeProject Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9446C8892B6A864C00DAAD65 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9446C86B2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9446C8372B6A863E00DAAD65 /* GiveFreelyHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiveFreelyHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9446C83A2B6A863E00DAAD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9446C83E2B6A863E00DAAD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9446C8402B6A863E00DAAD65 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9446C8422B6A863E00DAAD65 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9446C8442B6A863E00DAAD65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9446C8462B6A863E00DAAD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9446C8492B6A863E00DAAD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9446C84C2B6A863E00DAAD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9446C84E2B6A864C00DAAD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9446C84F2B6A864C00DAAD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9446C8542B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveFreelyHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9446C8582B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveFreelyHomeProjectTests.swift; sourceTree = "<group>"; };
+		9446C85E2B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiveFreelyHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9446C8622B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveFreelyHomeProjectUITests.swift; sourceTree = "<group>"; };
+		9446C8642B6A864C00DAAD65 /* GiveFreelyHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveFreelyHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9446C86A2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GiveFreelyHomeProject Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9446C86F2B6A864C00DAAD65 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9446C8722B6A864C00DAAD65 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		9446C8742B6A864C00DAAD65 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		9446C8762B6A864C00DAAD65 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9446C8782B6A864C00DAAD65 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		9446C87A2B6A864C00DAAD65 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		9446C87C2B6A864C00DAAD65 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		9446C87E2B6A864C00DAAD65 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		9446C8802B6A864C00DAAD65 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		9446C8822B6A864C00DAAD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9446C8342B6A863E00DAAD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C8512B6A864C00DAAD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C85B2B6A864C00DAAD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C8672B6A864C00DAAD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9446C82E2B6A863E00DAAD65 = {
+			isa = PBXGroup;
+			children = (
+				9446C8392B6A863E00DAAD65 /* GiveFreelyHomeProject */,
+				9446C8572B6A864C00DAAD65 /* GiveFreelyHomeProjectTests */,
+				9446C8612B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests */,
+				9446C86E2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension */,
+				9446C8382B6A863E00DAAD65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9446C8382B6A863E00DAAD65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9446C8372B6A863E00DAAD65 /* GiveFreelyHomeProject.app */,
+				9446C8542B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.xctest */,
+				9446C85E2B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.xctest */,
+				9446C86A2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9446C8392B6A863E00DAAD65 /* GiveFreelyHomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				9446C83A2B6A863E00DAAD65 /* AppDelegate.swift */,
+				9446C8442B6A863E00DAAD65 /* SceneDelegate.swift */,
+				9446C8462B6A863E00DAAD65 /* ViewController.swift */,
+				9446C8482B6A863E00DAAD65 /* LaunchScreen.storyboard */,
+				9446C84B2B6A863E00DAAD65 /* Main.storyboard */,
+				9446C84E2B6A864C00DAAD65 /* Assets.xcassets */,
+				9446C84F2B6A864C00DAAD65 /* Info.plist */,
+				9446C83C2B6A863E00DAAD65 /* Resources */,
+			);
+			path = GiveFreelyHomeProject;
+			sourceTree = "<group>";
+		};
+		9446C83C2B6A863E00DAAD65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9446C83D2B6A863E00DAAD65 /* Main.html */,
+				9446C8402B6A863E00DAAD65 /* Icon.png */,
+				9446C8422B6A863E00DAAD65 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9446C8572B6A864C00DAAD65 /* GiveFreelyHomeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9446C8582B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.swift */,
+			);
+			path = GiveFreelyHomeProjectTests;
+			sourceTree = "<group>";
+		};
+		9446C8612B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9446C8622B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.swift */,
+				9446C8642B6A864C00DAAD65 /* GiveFreelyHomeProjectUITestsLaunchTests.swift */,
+			);
+			path = GiveFreelyHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		9446C86E2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9446C86F2B6A864C00DAAD65 /* SafariWebExtensionHandler.swift */,
+				9446C8822B6A864C00DAAD65 /* Info.plist */,
+				9446C8712B6A864C00DAAD65 /* Resources */,
+			);
+			path = "GiveFreelyHomeProject Extension";
+			sourceTree = "<group>";
+		};
+		9446C8712B6A864C00DAAD65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9446C8A12B6BECA900DAAD65 /* Scripts */,
+				9446C8722B6A864C00DAAD65 /* _locales */,
+				9446C8742B6A864C00DAAD65 /* images */,
+				9446C8762B6A864C00DAAD65 /* manifest.json */,
+				9446C87C2B6A864C00DAAD65 /* popup.html */,
+				9446C87E2B6A864C00DAAD65 /* popup.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9446C8A12B6BECA900DAAD65 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				9446C8782B6A864C00DAAD65 /* background.js */,
+				9446C87A2B6A864C00DAAD65 /* content.js */,
+				9446C8802B6A864C00DAAD65 /* popup.js */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9446C8362B6A863E00DAAD65 /* GiveFreelyHomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9446C88A2B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProject" */;
+			buildPhases = (
+				9446C8332B6A863E00DAAD65 /* Sources */,
+				9446C8342B6A863E00DAAD65 /* Frameworks */,
+				9446C8352B6A863E00DAAD65 /* Resources */,
+				9446C8892B6A864C00DAAD65 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9446C86D2B6A864C00DAAD65 /* PBXTargetDependency */,
+			);
+			name = GiveFreelyHomeProject;
+			productName = GiveFreelyHomeProject;
+			productReference = 9446C8372B6A863E00DAAD65 /* GiveFreelyHomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9446C8532B6A864C00DAAD65 /* GiveFreelyHomeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9446C88D2B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProjectTests" */;
+			buildPhases = (
+				9446C8502B6A864C00DAAD65 /* Sources */,
+				9446C8512B6A864C00DAAD65 /* Frameworks */,
+				9446C8522B6A864C00DAAD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9446C8562B6A864C00DAAD65 /* PBXTargetDependency */,
+			);
+			name = GiveFreelyHomeProjectTests;
+			productName = GiveFreelyHomeProjectTests;
+			productReference = 9446C8542B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9446C85D2B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9446C8902B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProjectUITests" */;
+			buildPhases = (
+				9446C85A2B6A864C00DAAD65 /* Sources */,
+				9446C85B2B6A864C00DAAD65 /* Frameworks */,
+				9446C85C2B6A864C00DAAD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9446C8602B6A864C00DAAD65 /* PBXTargetDependency */,
+			);
+			name = GiveFreelyHomeProjectUITests;
+			productName = GiveFreelyHomeProjectUITests;
+			productReference = 9446C85E2B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9446C8692B6A864C00DAAD65 /* GiveFreelyHomeProject Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9446C8862B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProject Extension" */;
+			buildPhases = (
+				9446C8662B6A864C00DAAD65 /* Sources */,
+				9446C8672B6A864C00DAAD65 /* Frameworks */,
+				9446C8682B6A864C00DAAD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GiveFreelyHomeProject Extension";
+			productName = "GiveFreelyHomeProject Extension";
+			productReference = 9446C86A2B6A864C00DAAD65 /* GiveFreelyHomeProject Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9446C82F2B6A863E00DAAD65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9446C8362B6A863E00DAAD65 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					9446C8532B6A864C00DAAD65 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 9446C8362B6A863E00DAAD65;
+					};
+					9446C85D2B6A864C00DAAD65 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 9446C8362B6A863E00DAAD65;
+					};
+					9446C8692B6A864C00DAAD65 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 9446C8322B6A863E00DAAD65 /* Build configuration list for PBXProject "GiveFreelyHomeProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9446C82E2B6A863E00DAAD65;
+			productRefGroup = 9446C8382B6A863E00DAAD65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9446C8362B6A863E00DAAD65 /* GiveFreelyHomeProject */,
+				9446C8532B6A864C00DAAD65 /* GiveFreelyHomeProjectTests */,
+				9446C85D2B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests */,
+				9446C8692B6A864C00DAAD65 /* GiveFreelyHomeProject Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9446C8352B6A863E00DAAD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446C8412B6A863E00DAAD65 /* Icon.png in Resources */,
+				9446C84D2B6A863E00DAAD65 /* Main.storyboard in Resources */,
+				9446C84A2B6A863E00DAAD65 /* LaunchScreen.storyboard in Resources */,
+				9446C83F2B6A863E00DAAD65 /* Main.html in Resources */,
+				9446C8832B6A864C00DAAD65 /* Assets.xcassets in Resources */,
+				9446C8432B6A863E00DAAD65 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C8522B6A864C00DAAD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C85C2B6A864C00DAAD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C8682B6A864C00DAAD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446C8792B6A864C00DAAD65 /* background.js in Resources */,
+				9446C87F2B6A864C00DAAD65 /* popup.css in Resources */,
+				9446C87D2B6A864C00DAAD65 /* popup.html in Resources */,
+				9446C8752B6A864C00DAAD65 /* images in Resources */,
+				9446C8772B6A864C00DAAD65 /* manifest.json in Resources */,
+				9446C8732B6A864C00DAAD65 /* _locales in Resources */,
+				9446C87B2B6A864C00DAAD65 /* content.js in Resources */,
+				9446C8812B6A864C00DAAD65 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9446C8332B6A863E00DAAD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446C8472B6A863E00DAAD65 /* ViewController.swift in Sources */,
+				9446C83B2B6A863E00DAAD65 /* AppDelegate.swift in Sources */,
+				9446C8452B6A863E00DAAD65 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C8502B6A864C00DAAD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446C8592B6A864C00DAAD65 /* GiveFreelyHomeProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C85A2B6A864C00DAAD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446C8632B6A864C00DAAD65 /* GiveFreelyHomeProjectUITests.swift in Sources */,
+				9446C8652B6A864C00DAAD65 /* GiveFreelyHomeProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446C8662B6A864C00DAAD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446C8702B6A864C00DAAD65 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9446C8562B6A864C00DAAD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9446C8362B6A863E00DAAD65 /* GiveFreelyHomeProject */;
+			targetProxy = 9446C8552B6A864C00DAAD65 /* PBXContainerItemProxy */;
+		};
+		9446C8602B6A864C00DAAD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9446C8362B6A863E00DAAD65 /* GiveFreelyHomeProject */;
+			targetProxy = 9446C85F2B6A864C00DAAD65 /* PBXContainerItemProxy */;
+		};
+		9446C86D2B6A864C00DAAD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9446C8692B6A864C00DAAD65 /* GiveFreelyHomeProject Extension */;
+			targetProxy = 9446C86C2B6A864C00DAAD65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9446C83D2B6A863E00DAAD65 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9446C83E2B6A863E00DAAD65 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		9446C8482B6A863E00DAAD65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9446C8492B6A863E00DAAD65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9446C84B2B6A863E00DAAD65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9446C84C2B6A863E00DAAD65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9446C8842B6A864C00DAAD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9446C8852B6A864C00DAAD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9446C8872B6A864C00DAAD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GiveFreelyHomeProject Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GiveFreelyHomeProject Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProject.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9446C8882B6A864C00DAAD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GiveFreelyHomeProject Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GiveFreelyHomeProject Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProject.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9446C88B2B6A864C00DAAD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiveFreelyHomeProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GiveFreelyHomeProject;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9446C88C2B6A864C00DAAD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiveFreelyHomeProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GiveFreelyHomeProject;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9446C88E2B6A864C00DAAD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiveFreelyHomeProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiveFreelyHomeProject";
+			};
+			name = Debug;
+		};
+		9446C88F2B6A864C00DAAD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiveFreelyHomeProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiveFreelyHomeProject";
+			};
+			name = Release;
+		};
+		9446C8912B6A864C00DAAD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiveFreelyHomeProject;
+			};
+			name = Debug;
+		};
+		9446C8922B6A864C00DAAD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH7DC8GTYG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = InnunovaTI.GiveFreelyHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiveFreelyHomeProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9446C8322B6A863E00DAAD65 /* Build configuration list for PBXProject "GiveFreelyHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9446C8842B6A864C00DAAD65 /* Debug */,
+				9446C8852B6A864C00DAAD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9446C8862B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProject Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9446C8872B6A864C00DAAD65 /* Debug */,
+				9446C8882B6A864C00DAAD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9446C88A2B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9446C88B2B6A864C00DAAD65 /* Debug */,
+				9446C88C2B6A864C00DAAD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9446C88D2B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9446C88E2B6A864C00DAAD65 /* Debug */,
+				9446C88F2B6A864C00DAAD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9446C8902B6A864C00DAAD65 /* Build configuration list for PBXNativeTarget "GiveFreelyHomeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9446C8912B6A864C00DAAD65 /* Debug */,
+				9446C8922B6A864C00DAAD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9446C82F2B6A863E00DAAD65 /* Project object */;
+}
