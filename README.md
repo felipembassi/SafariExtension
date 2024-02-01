@@ -30,3 +30,6 @@ Once installed and enabled, the extension adds a new icon to your Safari toolbar
 - Adjust the font size by tapping the "A" (increase) or "a" (decrease) buttons.
 - Toggle dark mode on or off using the checkbox.
 - Enter a keyword in the text field and tap the "Highlight" button to highlight all occurrences of the keyword on the current page.
+
+## Demo
+<video width="300" src="https://github.com/felipembassi/SafariExtension/assets/4182255/4ebe035b-4551-4d02-b816-9b717ed1185e">
